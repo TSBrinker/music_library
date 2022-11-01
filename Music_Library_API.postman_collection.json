@@ -10,7 +10,23 @@
 			"name": "Get_All_Songs",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/song/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"song",
+						""
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +34,24 @@
 			"name": "Get_Song_By_Id",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/song/3/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"song",
+						"3",
+						""
+					]
+				}
 			},
 			"response": []
 		},
@@ -29,12 +62,29 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"Jireh\",\r\n    \"artist\": \"Maverick City\",\r\n    \"album\": \"Old Church Basement\",\r\n    \"release_date\": \"2021-04-30\",\r\n    \"genre\": \"Contemporary Gospel\"\r\n}",
+					"raw": "{\r\n    \"id\": 3,\r\n    \"title\": \"Psalm 145\",\r\n    \"artist\": \"Dustin Kensrue\",\r\n    \"album\": \"The Water & The Blood\",\r\n    \"release_date\": \"2013-09-30\",\r\n    \"genre\": \"Indie Rock\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
 						}
 					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/song/3/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"song",
+						"3",
+						""
+					]
 				}
 			},
 			"response": []
@@ -43,7 +93,32 @@
 			"name": "Create_Song",
 			"request": {
 				"method": "POST",
-				"header": []
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"title\": \"Let It Go\",\r\n        \"artist\": \"Idina Menzel\",\r\n        \"album\": \"Frozen\",\r\n        \"release_date\": \"2013-11-27\",\r\n        \"genre\": \"Show tune\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/song/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"song",
+						""
+					]
+				}
 			},
 			"response": []
 		},
@@ -51,7 +126,24 @@
 			"name": "Delete_Song",
 			"request": {
 				"method": "DELETE",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/song/4/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"song",
+						"4",
+						""
+					]
+				}
 			},
 			"response": []
 		}
