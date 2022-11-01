@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "60d9aa93-b500-45a4-a7c7-f42dd8e51cb7",
+		"name": "Music_Library_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23722824"
+	},
+	"item": [
+		{
+			"name": "Get_All_Songs",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get_Song_By_Id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update_Song",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"Jireh\",\r\n    \"artist\": \"Maverick City\",\r\n    \"album\": \"Old Church Basement\",\r\n    \"release_date\": \"2021-04-30\",\r\n    \"genre\": \"Contemporary Gospel\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create_Song",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_Song",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
