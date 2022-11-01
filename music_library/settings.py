@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
+    'song',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +121,5 @@ try:
     from music_library.local_settings import *
 except ImportError:
     raise ImportError("local settings not found")
+
+USE_TZ=False
