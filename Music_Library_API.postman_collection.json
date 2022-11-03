@@ -12,7 +12,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/song/",
+					"raw": "http://127.0.0.1:8000/api/music/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -23,7 +23,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"song",
+						"music",
 						""
 					]
 				}
@@ -36,7 +36,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/song/3/",
+					"raw": "http://127.0.0.1:8000/api/music/3/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -47,7 +47,32 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"song",
+						"music",
+						"3",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Like_Song",
+			"request": {
+				"method": "LIKE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/music/3/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"music",
 						"3",
 						""
 					]
@@ -70,7 +95,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/song/3/",
+					"raw": "http://127.0.0.1:8000/api/music/3/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -81,7 +106,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"song",
+						"music",
 						"3",
 						""
 					]
@@ -104,7 +129,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/song/",
+					"raw": "http://127.0.0.1:8000/api/music/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -115,7 +140,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"song",
+						"music",
 						""
 					]
 				}
@@ -128,7 +153,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8000/api/song/4/",
+					"raw": "http://127.0.0.1:8000/api/music/4/",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -139,7 +164,7 @@
 					"port": "8000",
 					"path": [
 						"api",
-						"song",
+						"music",
 						"4",
 						""
 					]
